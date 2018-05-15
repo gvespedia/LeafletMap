@@ -1,0 +1,4 @@
+L'immagine della mappa è definita harcode nel metodo onDataReceived del file manage-map.controller.js
+
+Nel file manage-map.controller.js ho dovuto ridefinire la variabile globale di leaflet L come _L in modo che fosse disponibile a tutti i metodi. 
+Utilizzare quella variabile.
